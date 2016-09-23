@@ -10,11 +10,21 @@ package cambios.en.git;
  * @author pc
  */
 public class CambiosEnGit {
+     initComponents();
+        cboOpe.removeAllItems();
+        cboOpe.addItem("Suma");
+        cboOpe.addItem("Resta");
+        cboOpe.addItem("Multiplicacion");
+        cboOpe.addItem("Division");
+        cboOpe.setSelectedIndex(2);
+    
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        
         // TODO code application logic here
     }
     
